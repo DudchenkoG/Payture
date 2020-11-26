@@ -7,7 +7,6 @@ package dto.request;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.io.UnsupportedEncodingException;
-import java.math.BigDecimal;
 import java.net.URLEncoder;
 
 
@@ -19,7 +18,6 @@ public class PayInfoDTO {
     @JsonProperty("EYear")
     private Integer eYear;
     @JsonProperty("Amount")
-//    private BigDecimal amount;
     private Integer amount;
     @JsonProperty("CardHolder")
     private String cardHolder;

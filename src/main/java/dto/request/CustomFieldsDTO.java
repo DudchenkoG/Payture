@@ -6,7 +6,6 @@ package dto.request;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import java.math.BigDecimal;
 import java.net.URLEncoder;
 
 

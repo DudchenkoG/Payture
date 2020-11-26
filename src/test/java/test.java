@@ -2,14 +2,9 @@ import com.github.javafaker.Faker;
 import dto.request.BlockDTO;
 import dto.request.CustomFieldsDTO;
 import dto.request.PayInfoDTO;
-import io.restassured.RestAssured;
-import io.restassured.path.xml.XmlPath;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import java.math.BigDecimal;
-import java.util.Random;
 
 import static io.restassured.RestAssured.given;
 
